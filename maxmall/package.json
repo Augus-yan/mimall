@@ -1,21 +1,31 @@
 {
-  "name": "maxmall",
+  "name": "mimall",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --mode=development",
+    "prev": "vue-cli-service serve --mode=prev",
+    "build": "vue-cli-service build --mode=production",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.1",
+    "mockjs": "^1.1.0",
+    "node-sass": "^5.0.0",
+    "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-axios": "^3.2.4",
+    "vue-cookie": "^1.1.4",
+    "vue-lazyload": "^1.3.3",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
